@@ -1,0 +1,77 @@
+/* Responsive CSS */
+
+@media screen and (max-width:1169px) and (min-width:981px) { 
+	html{overflow-x:hidden; }	
+	.header-wrap .wp-block-social-links .wp-social-link svg {
+	    height: 20px;
+	    width: 20px;
+	}
+	.inner-menu-header .wp-block-button__link{
+		padding: 10px;
+	}
+	.banner-wrap h2{
+		font-size: 40px !important;
+	}	
+}
+
+@media screen and (max-width: 980px){
+	.fse-overlap-image{ position:relative !important; right:auto !important; bottom:auto !important; margin:25px 0 !important;}
+	.wp-block-section-01 h2, .wp-block-section-02 h2{ font-size:28px !important; }
+	.wpcf7 input[type="text"], 
+	.wpcf7 input[type="tel"], 
+	.wpcf7 input[type="email"], 
+	.wpcf7 textarea{ 
+		width:100%;
+	}	
+	.blog-area .wp-block-post-template{
+		grid-template-columns: auto auto;
+	}
+
+	.banner-wrap h2,
+	.banner-wrap p{
+		text-align: center;
+	}
+	.main-header nav,
+	.main-header ul,
+	.header-search-box .wp-block-search__inside-wrapper,
+	.main-header .wp-block-buttons,
+	.banner-wrap .wp-block-buttons,
+	.logo-box {
+		justify-content: center;
+	}
+	.shipping-box {
+	    text-align: center;
+	    border: none;
+	}
+	.header-cart {
+	    display: flex;
+	    justify-content: center;
+	}
+	.product-col {
+	    display: grid !important;
+	    grid-template-columns: auto auto;
+	    gap: 50px !important;
+	}
+}
+
+@media screen and (max-width:767px) {
+	*{box-sizing:border-box;}
+	.wp-block-navigation__responsive-container.is-menu-open.has-modal-open{ padding:25px;}
+	.banner-wrap:after {
+	    width: auto;
+	}
+	.banner-wrap h2{
+		font-size: 50px !important;
+	}
+	.shipping-box {
+	    text-align: center;
+	    border: none;
+	}
+	.header-cart {
+	    display: flex;
+	    justify-content: center;
+	}
+	.product-col {
+	    display: flex !important;
+	}
+}
